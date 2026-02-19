@@ -24,7 +24,7 @@
 	},
 	"id":"tst-slugert",
 	"lastModifiedBy":92316,
-	"modifiedTime":1771491764137,
+	"modifiedTime":1771491827291,
 	"ownerUserId":92316,
 	"properties":{
 		"standard":false,
@@ -51,6 +51,10 @@
 					"primary":[
 						{
 							"id":"nav_0og0r",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_i2Yr7",
 							"hiddenInOverflow":false
 						}
 					],
@@ -89,6 +93,10 @@
 					"primary":[
 						{
 							"id":"nav_0og0r",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_i2Yr7",
 							"hiddenInOverflow":false
 						}
 					],
@@ -134,6 +142,10 @@
 						{
 							"id":"nav_0og0r",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_i2Yr7",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -177,6 +189,10 @@
 					"primary":[
 						{
 							"id":"nav_0og0r",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_i2Yr7",
 							"hiddenInOverflow":false
 						}
 					],
@@ -226,6 +242,16 @@
 					"type":"PAGE",
 					"pageId":"e_6996d18554a3771fdac23bb1",
 					"slug":"homepage"
+				},
+				{
+					"name":"Nav Item 2",
+					"icon":"NoCodeRating",
+					"id":"nav_i2Yr7",
+					"type":"MODULE",
+					"pageId":"e_6996d18554a3771fdac23bb1",
+					"moduleId":"e_68ee715e1d627206155ad544",
+					"url":"",
+					"slug":"nav_i2Yr7"
 				}
 			]
 		},
@@ -241,6 +267,10 @@
 			"defaultLocale":"en-US"
 		},
 		"entityDetailsMap":{
+			"e_68ee715e1d627206155ad544":{
+				"slug":"nav_i2Yr7",
+				"type":"MODULE"
+			},
 			"e_6996d1b4a5013f72c2ff7522":{
 				"slug":"page-2",
 				"isPublic":true,
@@ -257,5 +287,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":6
 }
