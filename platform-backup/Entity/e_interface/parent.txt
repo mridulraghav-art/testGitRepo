@@ -1,0 +1,86 @@
+{
+	"createdTime":1717141810993,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732276276621,
+		"deployedBy":0,
+		"entityVersion":12,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"parent",
+	"lastModifiedBy":-1,
+	"modifiedTime":1770297632331,
+	"ownerUserId":206,
+	"properties":{
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/theme/unifyapps/unify-logo.svg",
+				"favicon":"/favicon.png"
+			},
+			"_counter":{
+				"_pageCount":2,
+				"_moduleCount":0
+			}
+		},
+		"navigation":{
+			"primary":[
+				{
+					"type":"PAGE",
+					"id":"nav_IVeCy",
+					"name":"Page 1",
+					"slug":"page-1",
+					"pageId":"e_665981338f2fbf3832e6d220",
+					"icon":"Zap"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_ciEfc",
+					"name":"Page 2",
+					"slug":"page-2",
+					"pageId":"e_665999cbb387ec181e368368",
+					"icon":"Zap"
+				}
+			],
+			"defaultPageId":"e_665981338f2fbf3832e6d220"
+		},
+		"name":"test parent",
+		"sitemap":{
+			"pages":[
+				{
+					"path":"/e_665981338f2fbf3832e6d220",
+					"id":"e_665981338f2fbf3832e6d220",
+					"name":"Page 1"
+				},
+				{
+					"path":"/e_665999cbb387ec181e368368",
+					"id":"e_665999cbb387ec181e368368",
+					"name":"Page 2"
+				}
+			]
+		}
+	},
+	"standard":false,
+	"version":203
+}
