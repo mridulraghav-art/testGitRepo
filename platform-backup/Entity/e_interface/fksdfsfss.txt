@@ -9,8 +9,8 @@
 	},
 	"entityType":"e_interface",
 	"id":"fksdfsfss",
-	"lastModifiedBy":37040,
-	"modifiedTime":1771492663375,
+	"lastModifiedBy":11,
+	"modifiedTime":1771492671189,
 	"ownerUserId":37040,
 	"properties":{
 		"standard":false,
@@ -26,7 +26,7 @@
 			"_counter":{
 				"_mqttTopicCounter":7,
 				"_dataSourceCounter":6,
-				"_pageCount":77,
+				"_pageCount":78,
 				"_moduleCount":1,
 				"_variableCounter":7,
 				"_functionCounter":2
@@ -48,8 +48,7 @@
 				"zh-CN",
 				"hi",
 				"nl-NL",
-				"it-IT",
-				"gu"
+				"it-IT"
 			]
 		},
 		"customCode":{},
@@ -457,6 +456,7 @@
 			}
 		},
 		"interfacePageIdVsSlugMap":{
+			"e_6996d53fa5013f72c2ff78c8":"page-78",
 			"e_6995bf820200680a6e1a18f2":"page-76",
 			"e_69955a6710be6e29a8d4dd6e":"page-75",
 			"e_687238e337ca187154e6cb0e":"homepage",
@@ -710,5 +710,5 @@
 		}
 	},
 	"standard":false,
-	"version":1004
+	"version":1005
 }
