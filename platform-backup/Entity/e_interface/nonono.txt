@@ -1,0 +1,99 @@
+{
+	"createdTime":1716965117991,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732276271914,
+		"deployedBy":0,
+		"entityVersion":105,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"nonono",
+	"lastModifiedBy":-1,
+	"modifiedTime":1770297588081,
+	"ownerUserId":206,
+	"properties":{
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/theme/unifyapps/unify-logo.svg",
+				"favicon":"/favicon.png"
+			},
+			"_pageCount":2,
+			"_counter":{
+				"_pageCount":3
+			}
+		},
+		"navigation":{
+			"primary":[
+				{
+					"type":"PAGE",
+					"id":"nav_PeWSE",
+					"name":"Page 1",
+					"slug":"page-1",
+					"pageId":"e_6656cefef9b8aa3720f63c51",
+					"icon":"Zap"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_IJP1a",
+					"name":"Page 2",
+					"slug":"page-2",
+					"pageId":"e_665752b39e246978f92e18d1",
+					"icon":"Zap"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_fy8xY",
+					"name":"Page 3",
+					"slug":"page-3",
+					"pageId":"e_665ee6c5a86d360c585a05d2",
+					"icon":"Zap"
+				}
+			],
+			"defaultPageId":"e_6656cefef9b8aa3720f63c51"
+		},
+		"name":"No no no",
+		"sitemap":{
+			"pages":[
+				{
+					"path":"/e_6656cefef9b8aa3720f63c51",
+					"id":"e_6656cefef9b8aa3720f63c51",
+					"name":"Page 1"
+				},
+				{
+					"path":"/e_665752b39e246978f92e18d1",
+					"id":"e_665752b39e246978f92e18d1",
+					"name":"Page 2"
+				},
+				{
+					"path":"/e_665ee6c5a86d360c585a05d2",
+					"id":"e_665ee6c5a86d360c585a05d2",
+					"name":"Page 3"
+				}
+			]
+		}
+	},
+	"standard":false,
+	"version":296
+}
