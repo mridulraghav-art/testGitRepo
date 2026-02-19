@@ -1,0 +1,103 @@
+{
+	"createdTime":1715879401923,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732276270406,
+		"deployedBy":0,
+		"entityVersion":27,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"ninjaworld",
+	"lastModifiedBy":-1,
+	"modifiedTime":1770297538923,
+	"ownerUserId":206,
+	"properties":{
+		"componentType":"INTERFACE",
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://qa.unifyapps.com/assets/unify-logo.svg",
+				"favicon":"/favicon.png"
+			},
+			"_counter":{
+				"_pageCount":3
+			}
+		},
+		"navigation":{
+			"primary":[
+				{
+					"type":"PAGE",
+					"id":"nav_66463dea650de30f85e9f41e",
+					"name":"WOw page 1",
+					"icon":"Zap",
+					"pageId":"e_66463dea650de30f85e9f41e",
+					"items":[]
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_t9rR7",
+					"name":"Nice second page",
+					"pageId":"e_664773aa67a33a5b2f3742f9",
+					"icon":"RefreshCcw01",
+					"items":[]
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_nM5Jb",
+					"name":"Page 3",
+					"slug":"page-3scsacsc",
+					"pageId":"e_666b58bffb3e97185699a004",
+					"icon":"Zap",
+					"items":[]
+				}
+			],
+			"defaultPageId":"e_66463dea650de30f85e9f41e"
+		},
+		"name":"ninjaworld",
+		"theme":{
+			"output":":root,\r\n[data-color-scheme='light'] {\r\n  --palette-alpha-brand-05: #00335f0d;\r\n  --palette-alpha-brand-10: #00335f1a;\r\n  --palette-alpha-brand-20: #00335f33;\r\n  --palette-alpha-brand-30: #00335f4d;\r\n  --palette-alpha-brand-40: #00335f66;\r\n  --palette-alpha-brand-50: #00335f80;\r\n  --palette-alpha-brand-60: #00335f99;\r\n  --palette-alpha-brand-70: #00335fb3;\r\n  --palette-alpha-brand-80: #00335fcc;\r\n  --palette-alpha-brand-90: #00335fe6;\r\n  --palette-alpha-brand-100: #00335f;\r\n  --palette-brand-25: #f8fafc;\r\n  --palette-brand-50: #ecf2f7;\r\n  --palette-brand-100: #d2e7fa;\r\n  --palette-brand-200: #accce8;\r\n  --palette-brand-300: #5588b4;\r\n  --palette-brand-400: #2b6aa2;\r\n  --palette-brand-500: #004c8f;\r\n  --palette-brand-600: #003f77;\r\n  --palette-brand-700: #00335f;\r\n  --palette-brand-800: #002648;\r\n  --palette-brand-900: #001930;\r\n  --palette-brand-950: #000b14;\r\n}\r\n"
+		},
+		"sitemap":{
+			"pages":[
+				{
+					"path":"/e_66463dea650de30f85e9f41e",
+					"id":"e_66463dea650de30f85e9f41e",
+					"name":"Page 1"
+				},
+				{
+					"path":"/e_664773aa67a33a5b2f3742f9",
+					"id":"e_664773aa67a33a5b2f3742f9",
+					"name":"Page 2"
+				},
+				{
+					"path":"/e_666b58bffb3e97185699a004",
+					"id":"e_666b58bffb3e97185699a004",
+					"name":"Page 3"
+				}
+			]
+		}
+	},
+	"standard":false,
+	"version":218
+}
