@@ -2,10 +2,10 @@
 	"createdTime":1771499672533,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1771499811091,
-		"deployedBy":92316,
-		"entityVersion":4,
-		"version":1
+		"deployedAt":1771500505455,
+		"deployedBy":45011,
+		"entityVersion":10,
+		"version":3
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"appp-1111",
 	"lastModifiedBy":92316,
-	"modifiedTime":1771500282301,
+	"modifiedTime":1771500506484,
 	"ownerUserId":92316,
 	"properties":{
 		"standard":false,
@@ -46,7 +46,7 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":4
+				"_pageCount":6
 			}
 		},
 		"navigation":{
@@ -69,6 +69,10 @@
 						},
 						{
 							"id":"nav_z2gB3",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_bZjTp",
 							"hiddenInOverflow":false
 						}
 					],
@@ -119,6 +123,10 @@
 						},
 						{
 							"id":"nav_z2gB3",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_bZjTp",
 							"hiddenInOverflow":false
 						}
 					],
@@ -176,6 +184,10 @@
 						{
 							"id":"nav_z2gB3",
 							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_bZjTp",
+							"hiddenInOverflow":false
 						}
 					],
 					"navigationItem":{
@@ -231,6 +243,10 @@
 						},
 						{
 							"id":"nav_z2gB3",
+							"hiddenInOverflow":false
+						},
+						{
+							"id":"nav_bZjTp",
 							"hiddenInOverflow":false
 						}
 					],
@@ -304,16 +320,29 @@
 					"type":"PAGE",
 					"pageId":"e_6996f2fa251d4c20d61619d0",
 					"slug":"page-4"
+				},
+				{
+					"name":"Page 6",
+					"icon":"Zap",
+					"id":"nav_bZjTp",
+					"type":"PAGE",
+					"pageId":"e_6996f3da251d4c20d6161a17",
+					"slug":"page-6"
 				}
 			]
 		},
 		"interfacePageIdVsSlugMap":{
-			"e_6996f2fa251d4c20d61619d0":"page-4",
 			"e_6996f0c762a80a3eecb82a8e":"homepage",
+			"e_6996f2fa251d4c20d61619d0":"page-4",
+			"e_6996f38d07da142e1cc94529":"page-5",
+			"e_6996f3da251d4c20d6161a17":"page-6",
 			"e_6996f21962a80a3eecb82c00":"page-3",
 			"e_global_appp-1111":"global-page-of-appp-1111",
 			"e_6996f1a5c061d6679104e1e5":"page-2"
 		},
+		"publicPageIds":[
+			"e_6996f38d07da142e1cc94529"
+		],
 		"manifest":{
 			"type":"WEB"
 		},
@@ -331,5 +360,5 @@
 	"tags":[
 		
 	],
-	"version":7
+	"version":11
 }
