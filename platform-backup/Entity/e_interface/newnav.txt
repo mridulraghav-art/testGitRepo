@@ -1,0 +1,91 @@
+{
+	"createdTime":1715889682030,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732276268177,
+		"deployedBy":0,
+		"entityVersion":19,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"newnav",
+	"lastModifiedBy":-1,
+	"modifiedTime":1770297533455,
+	"ownerUserId":206,
+	"properties":{
+		"componentType":"INTERFACE",
+		"metadata":{
+			"version":"1.0.0",
+			"logo":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+			"favicon":"/favicon.png"
+		},
+		"navigation":{
+			"primary":[
+				{
+					"type":"PAGE",
+					"id":"nav_Mlq87",
+					"name":"Home",
+					"pageId":"e_664666121f63ea6d9402270e",
+					"icon":"Archive"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_hf62W",
+					"name":"Awesome Stats",
+					"pageId":"e_664666b91f63ea6d94022712",
+					"icon":"Star01"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_GMo9f",
+					"name":"Page 3",
+					"pageId":"e_6647346fafb2d13a6933f107",
+					"icon":"Zap"
+				}
+			],
+			"defaultPageId":"e_664666121f63ea6d9402270e"
+		},
+		"name":"New Navigation 🎉",
+		"sitemap":{
+			"pages":[
+				{
+					"path":"/e_664666121f63ea6d9402270e",
+					"id":"e_664666121f63ea6d9402270e",
+					"name":"Page 1"
+				},
+				{
+					"path":"/e_664666b91f63ea6d94022712",
+					"id":"e_664666b91f63ea6d94022712",
+					"name":"Stat page"
+				},
+				{
+					"path":"/e_6647346fafb2d13a6933f107",
+					"id":"e_6647346fafb2d13a6933f107",
+					"name":"Page 333333"
+				}
+			]
+		}
+	},
+	"standard":false,
+	"version":210
+}
