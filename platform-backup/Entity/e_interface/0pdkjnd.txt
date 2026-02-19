@@ -1,0 +1,109 @@
+{
+	"createdTime":1716478638281,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732276120974,
+		"deployedBy":0,
+		"entityVersion":95,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"0pdkjnd",
+	"lastModifiedBy":-1,
+	"modifiedTime":1770297546688,
+	"ownerUserId":206,
+	"properties":{
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/theme/unifyapps/unify-logo.svg",
+				"favicon":"/favicon.png"
+			},
+			"_pageCount":6
+		},
+		"navigation":{
+			"primary":[
+				{
+					"type":"PAGE",
+					"id":"nav_aYJZj",
+					"name":"Page 1",
+					"pageSlug":"page1",
+					"pageId":"e_664f62ae745408338fca55a2",
+					"icon":"Zap"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_OaY9F",
+					"name":"Page 3",
+					"pageSlug":"page3",
+					"pageId":"e_664f62e5745408338fca55aa",
+					"icon":"Zap"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_AGCzK",
+					"name":"Page 5",
+					"pageSlug":"page5",
+					"pageId":"e_664f64ad745408338fca55ce",
+					"icon":"Zap"
+				},
+				{
+					"type":"PAGE",
+					"id":"nav_vxsr9",
+					"name":"Page 6",
+					"pageSlug":"page6",
+					"pageId":"e_664f64c0745408338fca55cf",
+					"icon":"Zap"
+				}
+			],
+			"defaultPageId":"e_664f62ae745408338fca55a2"
+		},
+		"name":"test",
+		"sitemap":{
+			"pages":[
+				{
+					"path":"/e_664f62ae745408338fca55a2",
+					"id":"e_664f62ae745408338fca55a2",
+					"name":"Page 1"
+				},
+				{
+					"path":"/e_664f62e5745408338fca55aa",
+					"id":"e_664f62e5745408338fca55aa",
+					"name":"Page 3"
+				},
+				{
+					"path":"/e_664f64ad745408338fca55ce",
+					"id":"e_664f64ad745408338fca55ce",
+					"name":"Page 5"
+				},
+				{
+					"path":"/e_664f64c0745408338fca55cf",
+					"id":"e_664f64c0745408338fca55cf",
+					"name":"Page 6"
+				}
+			]
+		}
+	},
+	"standard":false,
+	"version":286
+}
