@@ -2,9 +2,29 @@
 	"createdTime":1771492223175,
 	"deleted":false,
 	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"92316"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"tst-slughj",
 	"lastModifiedBy":92316,
-	"modifiedTime":1771492223175,
+	"modifiedTime":1771492392349,
 	"ownerUserId":92316,
 	"properties":{
 		"standard":false,
@@ -20,15 +40,20 @@
 			"_counter":{
 				"_moduleCount":0,
 				"_mqttTopicCounter":0,
-				"_pageCount":0
+				"_pageCount":2
 			}
 		},
 		"navigation":{
 			"secondary":[],
-			"defaultPageId":"",
+			"defaultPageId":"e_6996d38354a3771fdac23dae",
 			"appearance":{
 				"SM":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_LAf8R",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -57,10 +82,16 @@
 						"padding":{
 							"all":"p-0"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"LG":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_LAf8R",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -95,10 +126,16 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"XL":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_LAf8R",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"expandable"
@@ -133,10 +170,16 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				},
 				"MD":{
-					"primary":[],
+					"primary":[
+						{
+							"id":"nav_LAf8R",
+							"hiddenInOverflow":false
+						}
+					],
 					"navigationItem":{
 						"selectionVariant":"stroke",
 						"labelVariant":"none"
@@ -171,11 +214,29 @@
 						"gapSecondary":{
 							"y":"gap-y-lg"
 						}
-					}
+					},
+					"secondary":[]
 				}
 			},
-			"primary":[]
+			"primary":[
+				{
+					"name":"Homepage",
+					"icon":"Zap",
+					"id":"nav_LAf8R",
+					"type":"PAGE",
+					"pageId":"e_6996d38354a3771fdac23dae",
+					"slug":"homepage"
+				}
+			]
 		},
+		"interfacePageIdVsSlugMap":{
+			"e_global_tst-slughj":"global-page-of-tst-slughj",
+			"e_6996d38354a3771fdac23dae":"homepage",
+			"e_6996d428a5013f72c2ff7811":"page-2"
+		},
+		"publicPageIds":[
+			"e_6996d428a5013f72c2ff7811"
+		],
 		"manifest":{
 			"type":"WEB"
 		},
@@ -192,5 +253,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":4
 }
