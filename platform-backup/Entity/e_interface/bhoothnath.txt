@@ -1,0 +1,146 @@
+{
+	"createdTime":1714506242813,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732276179397,
+		"deployedBy":0,
+		"entityVersion":20,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"VI",
+					"D",
+					"E",
+					"V",
+					"M_L"
+				],
+				"principalIds":[
+					"6757db349b09ba5b01b6c44c"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"bhoothnath",
+	"lastModifiedBy":-1,
+	"modifiedTime":1770297555550,
+	"ownerUserId":206,
+	"properties":{
+		"componentType":"INTERFACE",
+		"metadata":{
+			"version":"1.0.0",
+			"logo":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+			"favicon":"/favicon.png"
+		},
+		"navigation":{
+			"primary":[
+				{
+					"type":"PAGE",
+					"id":"e_66314a0229b6cf45399f583e",
+					"name":"New Page",
+					"icon":"/assets/boat/tasks.svg",
+					"url":"/e_66314a0229b6cf45399f583e"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_663cb5c0360a351c55e53b4d",
+					"name":"Page 2",
+					"url":"/e_663cb5c0360a351c55e53b4d"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_6641c06858b2b1537958ee9e",
+					"name":"Page 3",
+					"url":"/e_6641c06858b2b1537958ee9e"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_66426727d95cfa18ea8331f3",
+					"name":"Page 4",
+					"url":"/e_66426727d95cfa18ea8331f3"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_6642672fd95cfa18ea8331f4",
+					"name":"Page 5",
+					"url":"/e_6642672fd95cfa18ea8331f4"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_664267aed95cfa18ea8331f7",
+					"name":"Page 6",
+					"url":"/e_664267aed95cfa18ea8331f7"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_664267e0d95cfa18ea8331f9",
+					"name":"Page 7",
+					"url":"/e_664267e0d95cfa18ea8331f9"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_66426861d95cfa18ea8331fc",
+					"name":"Page 8",
+					"url":"/e_66426861d95cfa18ea8331fc"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_6644d92ec21f0d497e5c891a",
+					"name":"Page 9",
+					"url":"/e_6644d92ec21f0d497e5c891a"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_6644d9dfc21f0d497e5c891e",
+					"name":"Page 10",
+					"url":"/e_6644d9dfc21f0d497e5c891e"
+				},
+				{
+					"type":"PAGE",
+					"id":"e_6645f0eda6dc843b496577f1",
+					"name":"Page 11",
+					"url":"/e_6645f0eda6dc843b496577f1"
+				}
+			],
+			"defaultRoute":"/e_66314a0229b6cf45399f583e"
+		},
+		"name":"bhoothnath",
+		"sitemap":{
+			"pages":[
+				{
+					"path":"/e_66314a0229b6cf45399f583e",
+					"id":"e_66314a0229b6cf45399f583e"
+				},
+				{
+					"path":"/e_6641c06858b2b1537958ee9e",
+					"id":"e_6641c06858b2b1537958ee9e"
+				},
+				{
+					"path":"/e_6642672fd95cfa18ea8331f4",
+					"id":"e_6642672fd95cfa18ea8331f4"
+				},
+				{
+					"path":"/e_6644d92ec21f0d497e5c891a",
+					"id":"e_6644d92ec21f0d497e5c891a"
+				},
+				{
+					"path":"/e_6644d9dfc21f0d497e5c891e",
+					"id":"e_6644d9dfc21f0d497e5c891e"
+				},
+				{
+					"path":"/e_6645f0eda6dc843b496577f1",
+					"id":"e_6645f0eda6dc843b496577f1"
+				}
+			]
+		}
+	},
+	"standard":false,
+	"version":211
+}
