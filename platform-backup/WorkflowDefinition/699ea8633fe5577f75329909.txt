@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1772005475345,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_XHA0w",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_cXMtO",
+			"type":"next"
+		}
+	],
+	"id":"699ea8633fe5577f75329909",
+	"lastModifiedBy":3546,
+	"lcName":"rvr",
+	"modifiedTime":1772005475345,
+	"name":"rvr",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XHA0w-1",
+			"id":"_XHA0w",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XHA0w-1",
+			"id":"_cXMtO",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":3546,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}
