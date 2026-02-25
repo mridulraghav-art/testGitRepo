@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"salesforce"
+	],
+	"createdTime":1719397251403,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"667beb838c69594a3f3a3efe",
+	"lastModifiedBy":520,
+	"lcName":"untitled",
+	"modifiedTime":1719397310345,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"salesforce"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"3XEOp-1",
+			"id":"3XEOp",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
