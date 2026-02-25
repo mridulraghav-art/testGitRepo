@@ -1,0 +1,52 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1717572138631,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"6660122a1528fb2bd82dbbe1",
+	"lastModifiedBy":35,
+	"lcName":"untitled",
+	"modifiedTime":1717572147688,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"3sSCM-1",
+			"id":"3sSCM",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":35,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
