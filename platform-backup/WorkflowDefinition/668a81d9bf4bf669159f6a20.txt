@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"amazon_s3"
+	],
+	"createdTime":1720353241603,
+	"deleted":true,
+	"description":"sjkskjs",
+	"edges":[
+		
+	],
+	"id":"668a81d9bf4bf669159f6a20",
+	"lastModifiedBy":520,
+	"lcName":"ghhskass (copy)ssss",
+	"modifiedTime":1720353256191,
+	"name":"ghhskass (copy)ssss",
+	"nodes":[
+		{
+			"context":{
+				"appName":"amazon_s3"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"qn374-1",
+			"id":"qn374",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
