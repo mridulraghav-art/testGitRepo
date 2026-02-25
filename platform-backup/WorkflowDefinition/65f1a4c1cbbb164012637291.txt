@@ -1,0 +1,49 @@
+{
+	"createdTime":1710335169850,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"65f1a4c1cbbb164012637291",
+	"lastModifiedBy":11,
+	"lcName":"untitled",
+	"modifiedTime":1710336295362,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"amazon_sns"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"bcLHs-1",
+			"id":"bcLHs",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":11,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
