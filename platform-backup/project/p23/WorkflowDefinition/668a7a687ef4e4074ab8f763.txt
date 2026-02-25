@@ -1,0 +1,44 @@
+{
+	"appsUsed":[
+		"gmail"
+	],
+	"createdTime":1720351336690,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"668a7a687ef4e4074ab8f763",
+	"lastModifiedBy":520,
+	"lcName":"akma1122w",
+	"modifiedTime":1720353176920,
+	"name":"akma1122w",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gmail"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"hFjCf-1",
+			"id":"hFjCf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"projectId":23,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
