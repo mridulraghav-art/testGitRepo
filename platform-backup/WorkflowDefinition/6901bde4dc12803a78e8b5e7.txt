@@ -20,12 +20,19 @@
 			"skip":false,
 			"toNodeId":"n_IVKD4",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_IVKD4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_XOfoJ",
+			"type":"next"
 		}
 	],
 	"id":"6901bde4dc12803a78e8b5e7",
 	"lastModifiedBy":33,
 	"lcName":"test ",
-	"modifiedTime":1772007007708,
+	"modifiedTime":1772007110660,
 	"name":"test ",
 	"nodes":[
 		{
@@ -76,6 +83,28 @@
 			"subTitle":"Zendesk",
 			"title":"Uploads attachment",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"zendesk",
+				"resourceVersion":3031,
+				"connectionId":"673eac5b16a9ea770895fe44",
+				"resourceName":"zendesk_download_attachment",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zbhad-1",
+			"id":"n_XOfoJ",
+			"index":3,
+			"inputs":{
+				"attachment_id":"33585191434002"
+			},
+			"skip":false,
+			"subTitle":"Zendesk",
+			"title":"Download attachment",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":33,
@@ -95,5 +124,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":6
 }
