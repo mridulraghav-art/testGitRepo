@@ -18,12 +18,19 @@
 			"skip":false,
 			"toNodeId":"n_rEKF0",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_rEKF0",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_YmMqB",
+			"type":"next"
 		}
 	],
 	"id":"699ea8b901f37d14e0988dd1",
 	"lastModifiedBy":175510,
 	"lcName":"test1",
-	"modifiedTime":1772005846247,
+	"modifiedTime":1772007000949,
 	"name":"test1",
 	"nodes":[
 		{
@@ -96,6 +103,22 @@
 			"subTitle":"GrowSurf",
 			"title":"Trigger referral by participant email",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"growsurf",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_KzK8e-1",
+			"id":"n_YmMqB",
+			"index":4,
+			"skip":false,
+			"subTitle":"GrowSurf",
+			"title":"Select an action",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":175510,
@@ -115,5 +138,5 @@
 	"tags":[
 		
 	],
-	"version":3
+	"version":4
 }
