@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"bitbucket"
+	],
+	"createdTime":1720292971166,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"6689966bb6a4ae5b12058fb1",
+	"lastModifiedBy":520,
+	"lcName":"ss",
+	"modifiedTime":1720325863997,
+	"name":"ss",
+	"nodes":[
+		{
+			"context":{
+				"appName":"bitbucket"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"hPhSG-1",
+			"id":"hPhSG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
