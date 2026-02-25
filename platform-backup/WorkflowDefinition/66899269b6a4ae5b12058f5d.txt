@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"amazon_s3"
+	],
+	"createdTime":1720291945811,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"66899269b6a4ae5b12058f5d",
+	"lastModifiedBy":520,
+	"lcName":"ghjk",
+	"modifiedTime":1720325868591,
+	"name":"ghjk",
+	"nodes":[
+		{
+			"context":{
+				"appName":"amazon_s3"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"w5DTc-1",
+			"id":"w5DTc",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
