@@ -11,12 +11,19 @@
 			"skip":false,
 			"toNodeId":"n_rUZ7V",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_rUZ7V",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_raN12",
+			"type":"next"
 		}
 	],
 	"id":"699eb0c4153ff2257d6d5d90",
 	"lastModifiedBy":175510,
 	"lcName":"gs121",
-	"modifiedTime":1772007670439,
+	"modifiedTime":1772007785447,
 	"name":"gs121",
 	"nodes":[
 		{
@@ -63,6 +70,29 @@
 			"subTitle":"GrowSurf",
 			"title":"Get campaigns",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"growsurf",
+				"resourceVersion":2,
+				"connectionId":"699e94b26c33cc20afc336ce",
+				"resourceName":"growsurf_get_participant_by_id",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_pEzUB-1",
+			"id":"n_raN12",
+			"index":3,
+			"inputs":{
+				"participantId":"c1puj3",
+				"id":"nuaj2f"
+			},
+			"skip":false,
+			"subTitle":"GrowSurf",
+			"title":"Get participant by ID",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":175510,
@@ -82,5 +112,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
