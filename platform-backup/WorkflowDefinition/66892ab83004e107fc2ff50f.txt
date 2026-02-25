@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"freshbooks"
+	],
+	"createdTime":1720265400107,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"66892ab83004e107fc2ff50f",
+	"lastModifiedBy":520,
+	"lcName":"untitled",
+	"modifiedTime":1720280874463,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"freshbooks"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"PDNU1-1",
+			"id":"PDNU1",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
