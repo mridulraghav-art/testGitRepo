@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"freshservice"
+	],
+	"createdTime":1720011945383,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"66854ca9f9a6590e1da04d12",
+	"lastModifiedBy":174,
+	"lcName":"untitled",
+	"modifiedTime":1720011953849,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"freshservice"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"7Tttr-1",
+			"id":"7Tttr",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":174,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
