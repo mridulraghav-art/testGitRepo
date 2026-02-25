@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"amazon_s3"
+	],
+	"createdTime":1720263853905,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"668924ad4d04c1694b51affb",
+	"lastModifiedBy":520,
+	"lcName":"akma3",
+	"modifiedTime":1720280892793,
+	"name":"akma3",
+	"nodes":[
+		{
+			"context":{
+				"appName":"amazon_s3"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"QJLd9-1",
+			"id":"QJLd9",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":4
+}
