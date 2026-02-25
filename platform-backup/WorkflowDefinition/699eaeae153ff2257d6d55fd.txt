@@ -23,7 +23,7 @@
 	"id":"699eaeae153ff2257d6d55fd",
 	"lastModifiedBy":189756,
 	"lcName":"test",
-	"modifiedTime":1772007973360,
+	"modifiedTime":1772008019796,
 	"name":"test",
 	"nodes":[
 		{
@@ -75,8 +75,8 @@
 		{
 			"context":{
 				"appName":"meeting_bot_by_unifyapps",
-				"resourceVersion":92,
-				"resourceName":"meeting_bot_by_unifyapps_get_recording_till_now",
+				"resourceVersion":595,
+				"resourceName":"meeting_bot_by_unifyapps_join_meeting",
 				"type":"APPLICATION"
 			},
 			"debug":false,
@@ -86,7 +86,7 @@
 			"id":"n_7boK3",
 			"index":2,
 			"inputs":{
-				"finalizeCurrentSegment":false,
+				"botName":"UnifyApps",
 				"meetingUrl":"{{ n_sil14.outputs.meetingId }}"
 			},
 			"options":{
@@ -148,7 +148,7 @@
 			},
 			"skip":false,
 			"subTitle":"Meeting bot by UnifyApps",
-			"title":"Get recording till now",
+			"title":"Join meeting",
 			"type":"ACTION"
 		},
 		{
@@ -192,5 +192,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
