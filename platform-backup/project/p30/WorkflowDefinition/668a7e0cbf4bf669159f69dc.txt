@@ -1,0 +1,51 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720352268474,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"668a7e0cbf4bf669159f69dc",
+	"lastModifiedBy":520,
+	"lcName":"akmareview",
+	"modifiedTime":1720352621585,
+	"name":"akmareview",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":44,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"XosHk-1",
+			"id":"XosHk",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"title":"Http Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"projectId":30,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
