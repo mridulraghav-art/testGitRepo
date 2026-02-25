@@ -23,7 +23,7 @@
 	"id":"699eaeae153ff2257d6d55fd",
 	"lastModifiedBy":189756,
 	"lcName":"test",
-	"modifiedTime":1772008019796,
+	"modifiedTime":1772008086038,
 	"name":"test",
 	"nodes":[
 		{
@@ -33,7 +33,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_nYBYT-1",
 			"id":"n_sil14",
@@ -75,8 +75,8 @@
 		{
 			"context":{
 				"appName":"meeting_bot_by_unifyapps",
-				"resourceVersion":595,
-				"resourceName":"meeting_bot_by_unifyapps_join_meeting",
+				"resourceVersion":613,
+				"resourceName":"meeting_bot_by_unifyapps_get_recording_till_now",
 				"type":"APPLICATION"
 			},
 			"debug":false,
@@ -86,7 +86,7 @@
 			"id":"n_7boK3",
 			"index":2,
 			"inputs":{
-				"botName":"UnifyApps",
+				"finalizeCurrentSegment":false,
 				"meetingUrl":"{{ n_sil14.outputs.meetingId }}"
 			},
 			"options":{
@@ -148,7 +148,7 @@
 			},
 			"skip":false,
 			"subTitle":"Meeting bot by UnifyApps",
-			"title":"Join meeting",
+			"title":"Get recording till now",
 			"type":"ACTION"
 		},
 		{
@@ -159,7 +159,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_nYBYT-1",
 			"id":"n_su2rl",
@@ -192,5 +192,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }
