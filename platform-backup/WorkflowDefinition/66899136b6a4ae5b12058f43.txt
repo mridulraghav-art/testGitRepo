@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"amazon_ses"
+	],
+	"createdTime":1720291638687,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"66899136b6a4ae5b12058f43",
+	"lastModifiedBy":520,
+	"lcName":"jknaskj",
+	"modifiedTime":1720291938966,
+	"name":"jknaskj",
+	"nodes":[
+		{
+			"context":{
+				"appName":"amazon_ses"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Ie2ic-1",
+			"id":"Ie2ic",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
