@@ -1,0 +1,45 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1719569483571,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"667e8c4b85e5ae6a25199c1a",
+	"lastModifiedBy":520,
+	"lcName":"usecase_arrayjoining",
+	"modifiedTime":1719570107042,
+	"name":"Usecase_arrayjoining",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":62,
+				"resourceName":"callables_from_api"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"6xpz6-1",
+			"id":"6xpz6",
+			"index":0,
+			"skip":false,
+			"title":"Call Automation via API",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":4
+}
