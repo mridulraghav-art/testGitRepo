@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"schedule"
+	],
+	"createdTime":1719407753818,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"667c148931dc331ed93ba7b6",
+	"lastModifiedBy":520,
+	"lcName":"untitled",
+	"modifiedTime":1719407822863,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"yHFaD-1",
+			"id":"yHFaD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
