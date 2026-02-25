@@ -6,46 +6,179 @@
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_nYBYT",
+			"fromNodeId":"n_sil14",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_7KSGr",
+			"toNodeId":"n_7boK3",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_7boK3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_su2rl",
 			"type":"next"
 		}
 	],
 	"id":"699eaeae153ff2257d6d55fd",
-	"lastModifiedBy":124519,
+	"lastModifiedBy":189756,
 	"lcName":"test",
-	"modifiedTime":1772007086984,
+	"modifiedTime":1772007973360,
 	"name":"test",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3091,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_nYBYT-1",
-			"id":"_nYBYT",
-			"index":0,
+			"id":"n_sil14",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"res"
+					],
+					"properties":{
+						"res":{
+							"type":"string",
+							"title":"Res"
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[],
+					"properties":{
+						"meetingId":{
+							"type":"string",
+							"title":"Meeting Id"
+						}
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"meeting_bot_by_unifyapps",
+				"resourceVersion":92,
+				"resourceName":"meeting_bot_by_unifyapps_get_recording_till_now",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
+			"fallbackMode":"CONTINUE",
+			"groupId":"_nYBYT-1",
+			"id":"n_7boK3",
+			"index":2,
+			"inputs":{
+				"finalizeCurrentSegment":false,
+				"meetingUrl":"{{ n_sil14.outputs.meetingId }}"
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"maxLeaseTimeUnit":"SECONDS",
+					"maxWaitDurationUnit":"SECONDS"
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":false,
+					"logPolicies":[
+						
+					]
+				},
+				"rateLimitConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"backOffFactor":null,
+					"captureRetries":false,
+					"count":10,
+					"enabled":true,
+					"initialDelay":100,
+					"maxDelay":100
+				},
+				"stepError":"CONTINUE",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				},
+				"timeoutConfig":{
+					"enabled":false
+				}
+			},
+			"skip":false,
+			"subTitle":"Meeting bot by UnifyApps",
+			"title":"Get recording till now",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":3129,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_nYBYT-1",
-			"id":"_7KSGr",
-			"index":0,
+			"id":"n_su2rl",
+			"index":3,
+			"inputs":{
+				"result":{
+					"res":"200"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":124519,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -59,5 +192,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
