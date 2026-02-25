@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"asana"
+	],
+	"createdTime":1720281250819,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"668968a2b6a4ae5b12058adb",
+	"lastModifiedBy":520,
+	"lcName":"fghjk",
+	"modifiedTime":1720283317303,
+	"name":"fghjk",
+	"nodes":[
+		{
+			"context":{
+				"appName":"asana"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"gOF0A-1",
+			"id":"gOF0A",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
