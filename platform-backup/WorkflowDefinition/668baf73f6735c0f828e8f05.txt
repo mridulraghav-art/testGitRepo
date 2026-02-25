@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"microsoft_entra_id"
+	],
+	"createdTime":1720430451216,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"668baf73f6735c0f828e8f05",
+	"lastModifiedBy":520,
+	"lcName":"untitled",
+	"modifiedTime":1720430472928,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"microsoft_entra_id"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"35zzK-1",
+			"id":"35zzK",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
