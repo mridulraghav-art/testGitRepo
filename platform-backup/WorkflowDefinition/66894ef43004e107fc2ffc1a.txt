@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"slack"
+	],
+	"createdTime":1720274676434,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"66894ef43004e107fc2ffc1a",
+	"lastModifiedBy":520,
+	"lcName":"1234",
+	"modifiedTime":1720280798624,
+	"name":"1234",
+	"nodes":[
+		{
+			"context":{
+				"appName":"slack"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tvEEo-1",
+			"id":"tvEEo",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
