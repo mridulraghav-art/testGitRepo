@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"airtable"
+	],
+	"createdTime":1720763362271,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"6690c3e2d4c78a6e26ca76bd",
+	"lastModifiedBy":2069,
+	"lcName":"untitled",
+	"modifiedTime":1720763396023,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"airtable"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0BTKf-1",
+			"id":"0BTKf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":2069,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
