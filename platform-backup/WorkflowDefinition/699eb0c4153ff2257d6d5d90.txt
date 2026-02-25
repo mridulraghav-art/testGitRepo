@@ -1,51 +1,74 @@
 {
 	"appsUsed":[
-		
+		"growsurf"
 	],
 	"createdTime":1772007620671,
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_pEzUB",
+			"fromNodeId":"n_UrE5l",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_RGu0v",
+			"toNodeId":"n_rUZ7V",
 			"type":"next"
 		}
 	],
 	"id":"699eb0c4153ff2257d6d5d90",
 	"lastModifiedBy":175510,
 	"lcName":"gs121",
-	"modifiedTime":1772007620671,
+	"modifiedTime":1772007670439,
 	"name":"gs121",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":867,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_pEzUB-1",
-			"id":"_pEzUB",
-			"index":0,
+			"id":"n_UrE5l",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"growsurf",
+				"resourceVersion":3,
+				"connectionId":"699e94b26c33cc20afc336ce",
+				"resourceName":"growsurf_get_campaigns",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_pEzUB-1",
-			"id":"_RGu0v",
-			"index":0,
+			"id":"n_rUZ7V",
+			"index":2,
+			"inputs":{},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"GrowSurf",
+			"title":"Get campaigns",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":175510,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -59,5 +82,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
