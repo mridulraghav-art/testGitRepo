@@ -1,0 +1,44 @@
+{
+	"appsUsed":[
+		"slack"
+	],
+	"createdTime":1720281164069,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"6689684cb6a4ae5b12058ad6",
+	"lastModifiedBy":520,
+	"lcName":"ghjk",
+	"modifiedTime":1720287212175,
+	"name":"ghjk",
+	"nodes":[
+		{
+			"context":{
+				"appName":"slack"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Q0gZO-1",
+			"id":"Q0gZO",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"projectId":20,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
