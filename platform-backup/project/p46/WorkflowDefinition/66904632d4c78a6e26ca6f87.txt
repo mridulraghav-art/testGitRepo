@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		"amazon_s3"
+	],
+	"createdTime":1720731186771,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"66904632d4c78a6e26ca6f87",
+	"lastModifiedBy":520,
+	"lcName":"untitled",
+	"modifiedTime":1720731199389,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"amazon_s3"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"LvPS8-1",
+			"id":"LvPS8",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"projectId":46,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
