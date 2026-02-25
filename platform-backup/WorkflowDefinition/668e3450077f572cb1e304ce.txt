@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720595536235,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"668e3450077f572cb1e304ce",
+	"lastModifiedBy":2069,
+	"lcName":"untitled",
+	"modifiedTime":1720595649150,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"storage_by_unifyapps"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GaqBx-1",
+			"id":"GaqBx",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":2069,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
