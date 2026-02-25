@@ -1,0 +1,44 @@
+{
+	"appsUsed":[
+		"gmail"
+	],
+	"createdTime":1720352707896,
+	"deleted":true,
+	"description":"ssdd",
+	"edges":[
+		
+	],
+	"id":"668a7fc3bf4bf669159f69f4",
+	"lastModifiedBy":520,
+	"lcName":"akma12ed",
+	"modifiedTime":1720353171871,
+	"name":"akma12ed",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gmail"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"BtC0A-1",
+			"id":"BtC0A",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"projectId":23,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}
